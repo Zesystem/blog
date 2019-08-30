@@ -1,0 +1,120 @@
+.body{
+    margin-top: 20px;
+}
+.body .main{
+    padding: 5px;
+    display: flex;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+.body>.main>.right{
+    min-height:640px;
+    flex: 3;
+}
+.body .fcontent{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+.body .right #li{
+    width: 800px;
+    margin: 0 auto;
+    margin-top:5px;
+}
+.body .fcontent>ul>form>li>#title{
+	height:30px;
+	width:800px;
+	outline:none;
+	text-indent:1em;
+	font-size:18px;
+}
+.body .fcontent>ul>form>li>textarea{
+	width:800px;
+	height:100px;
+	outline:none;
+	text-indent:1em;
+	box-sizing:border-box;
+	font-size:20px;
+	padding-top:10px;
+	box-sizing:border-box;
+}
+.body #h{
+	margin-top:10px;
+	width:200px;
+	margin-left:49px;
+	font-size:20px;
+	font-weight:bold;
+	padding:3px 0;
+	font-family:"KaiTi";
+	border-bottom:1px solid rgb(2, 172, 245);
+}
+#btn{
+	padding:10px 0;
+	text-align:center;
+}
+#btn #btns{
+	outline:none;
+	border:none;
+	font-size:18px;
+	padding:2px 5px;
+	background:rgb(2, 172, 245);
+	color:#ffffff;
+}
+.fcontent img{
+	border:1px solid rgb(2, 172, 245);
+	width: 150px;
+    height: 150px;
+}
+.body .pwd{
+	position:relative;
+}
+.body .showPwd img{
+	width: 28px;
+    height: 28px;
+	border:none;
+}
+.body .showPwd{
+	font-size:0px;
+	position:absolute;
+	right:0;
+	top:3px;
+}
+.body .showPwd:hover{
+	cursor:pointer;
+}
+.clearinput{
+	box-shadow: 0 0 0px 1000px white inset;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    background: #f03a5e;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    font-size:16px;
+}
+.file input[type=file] {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file input[type=submit]{
+	outline:none;
+	border:none;
+	background: transparent;
+	font-size:16px;
+	color:#ffffff;
+}
+.file:hover {
+    background: #f03a9e;
+    text-decoration: none;
+}

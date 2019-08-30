@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    list-style: none;
+}
+body{
+    background: url("../images/mani_bg.png")no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body>div{
+    width: 100%;
+}
+.main{
+    width: 1200px;
+    margin:0 auto;
+}
+.head{
+
+}
+.head .main{
+    padding-top: 40px;
+    position: relative;
+}
+.head .logo img{
+    width: 150px;
+    height:150px;
+    border-radius: 50%
+}
+.head .logo{
+    display: inline-block;
+}
+.head ul{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 650px;
+    display: flex;
+}
+.head ul li{
+    flex: 1;
+}
+.head ul a{
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    font-family: "KaiTi";
+    font-weight: bold;
+}
+.head ul a:hover{
+    cursor: pointer;
+    background: rgb(129, 204, 227);
+}

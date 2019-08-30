@@ -1,0 +1,75 @@
+	.body{
+    margin-top: 20px;
+}
+.body .main{
+    padding: 5px;
+    display: flex;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+.body>.main>.right{
+    min-height:640px;
+    flex: 3;
+}
+.body .fcontent{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+.body .right #li{
+    width: 800px;
+    margin: 0 auto;
+    margin-top:5px;
+}
+.body .fcontent>ul>form>li>#title{
+	height:30px;
+	width:800px;
+	outline:none;
+	text-indent:1em;
+	font-size:18px;
+}
+.body .fcontent>ul>form>li>#fen{
+	height: 30px;
+    width:130px;
+    outline: none;
+    text-indent: 1em;
+    font-size: 18px;
+}
+.body .d{
+	display:flex;
+	justify-content: space-between;
+}
+.body .fcontent>ul>form>li>textarea{
+	width:800px;
+	height:100px;
+	outline:none;
+	text-indent:1em;
+	box-sizing:border-box;
+	font-size:20px;
+	padding-top:10px;
+	box-sizing:border-box;
+}
+.body #h{
+	margin-top:10px;
+	width:200px;
+	margin-left:49px;
+	font-size:20px;
+	font-weight:bold;
+	padding:3px 0;
+	font-family:"KaiTi";
+	border-bottom:1px solid rgb(2, 172, 245);
+}
+#btn{
+	padding:10px 0;
+	text-align:center;
+}
+#btn #btns{
+	outline:none;
+	border:none;
+	font-size:18px;
+	padding:2px 5px;
+	background:rgb(2, 172, 245);
+	color:#ffffff;
+}
